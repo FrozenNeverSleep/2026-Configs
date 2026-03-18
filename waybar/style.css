@@ -1,0 +1,27 @@
+* {
+    font-family: "Monaco";
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: #A9A9A9;
+    border-bottom: 3px solid #928E85;
+    border-right: 3px solid #928E85;
+    border-top: 3px solid #BEBEBE;
+    border-left: 3px solid #BEBEBE;
+    color: #e5e5e5;
+}
+
+#window {
+    padding-left: 20px;
+}
+
+#tray {
+    padding-right: 20px;
+}
+#cpu,
+#temperature,
+#memory,
+#clock {
+    padding: 10px;
+}
